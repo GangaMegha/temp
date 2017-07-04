@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 
 print "namaste ji"
+
 img = cv2.imread('ball_15cm.jpg',0)
 ret,thresh = cv2.threshold(img,127,255,cv2.THRESH_BINARY)
 # ret,thresh = cv2.threshold(img,127,255,cv2.THRESH_BINARY_INV)

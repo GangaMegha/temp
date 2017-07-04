@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-
+print "namaste"
 img = cv2.imread('ball_15cm.jpg',0)
 ret,thresh = cv2.threshold(img,127,255,cv2.THRESH_BINARY)
 # ret,thresh = cv2.threshold(img,127,255,cv2.THRESH_BINARY_INV)
@@ -12,5 +12,6 @@ ret,thresh = cv2.threshold(img,127,255,cv2.THRESH_BINARY)
 cv2.namedWindow("Image",cv2.WINDOW_AUTOSIZE)
 
 cv2.imshow("Image",thresh)
+
 print "hello hi"
 cv2.waitKey(0)

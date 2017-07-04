@@ -12,5 +12,5 @@ ret,thresh = cv2.threshold(img,127,255,cv2.THRESH_BINARY)
 cv2.namedWindow("Image",cv2.WINDOW_AUTOSIZE)
 
 cv2.imshow("Image",thresh)
-
+print "hi"
 cv2.waitKey(0)
